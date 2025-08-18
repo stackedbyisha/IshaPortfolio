@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Isha —  Web Developer Portfolio" />
+  <meta name="author" content="Isha">
+  <title>Isha | Portfolio</title>
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <div class="brand">Isha's portfolio.</div>
+      <nav class="nav__links">
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+        <a class="btn btn--outline" href="Resume.pdf" download>Resume!</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero__text">
+      <p class="overline">Hi! My name is,</p>
+      <h1 class="hero__name"><span class="gradient">Isha</span><span class="dot">.</span></h1>
+      <p class="hero__tag">I'm a Web Developer.<br />
+        passionate about creating<span class="gradient"> responsive,user-friendly websites</span> with clean and
+        efficient code.
+      </p>
+      <div class="socials">
+        <a aria-label="GitHub" href="https://github.com/stackedbyisha"><i class="fab fa-github"></i></a>
+        <!-- <a aria-label="X" href="#"><i class="fab fa-x-twitter"></i></a> -->
+        <a aria-label="Netlify" href="https://app.netlify.com/teams/ishasinha042940/overview"><i
+            class="fas fa-globe"></i></a>
+        <a aria-label="LinkedIn" href="#"><i class="fab fa-linkedin-in"></i></a>
+
+      </div>
+    </div>
+
+    <div class="hero__art">
+      <div class="rings">
+        <span class="ring ring--1"></span>
+        <span class="ring ring--2"></span>
+        <span class="ring ring--3"></span>
+        <span class="glow"></span>
+      </div>
+      <img class="avatar" src="ik.jpg" alt="Profile illustration" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <h2 class="section__title"><span>&lt; About Me &gt;</span></h2>
+    <div class="about">
+      <img class="about__img" src="Img2.jpg" alt="Profile side" />
+      <div class="about__text">
+        <h3>Hey there! <span class="wave">👋</span></h3>
+        <p>
+          I’m Isha — a curious mind with a love for turning coffee into code.
+          I craft websites that are not just visually appealing but also intuitive and responsive.
+        </p>
+        <p>
+          From bringing an idea to life in HTML, CSS, and JavaScript, to adding interactive magic with React,
+          I enjoy every step of the process. When I’m not coding, you’ll probably find me exploring new tools,
+          learning something new, or fine-tuning projects to pixel perfection.
+          For me, web development isn’t just work — it’s my creative playground.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
+    <h2 class="section__title"><span>&lt; Tech Stack /&gt;</span></h2>
+    <div class="grid grid--4">
+      <div class="card">
+        <h4 class="card__title">Front-End</h4>
+        <ul class="icons">
+          <li><i class="devicon-html5-plain colored"></i></li>
+          <li><i class="devicon-css3-plain colored"></i></li>
+          <li><i class="devicon-javascript-plain colored"></i></li>
+          <li><i class="devicon-react-original colored"></i></li>
+          <li><i class="devicon-tailwindcss-plain colored"></i></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4 class="card__title">Back-End</h4>
+        <ul class="icons">
+          <li><i class="devicon-nodejs-plain colored"></i></li>
+          <li><i class="devicon-mongodb-plain colored"></i></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4 class="card__title">Programming</h4>
+        <ul class="icons">
+          <li><i class="devicon-javascript-plain colored"></i></li>
+          <li><i class="devicon-python-plain colored"></i></li>
+          <li><i class="devicon-c-plain colored"></i></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4 class="card__title">Tech &amp; Tools</h4>
+        <ul class="icons">
+          <li><i class="devicon-git-plain colored"></i></li>
+          <li><i class="devicon-github-original"></i></li>
+          <li><i class="devicon-vscode-plain colored"></i></li>
+          <li><i class="devicon-netlify-plain colored"></i></li>
+          <li><i class="devicon-vercel-original colored"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <h2 class="section__title"><span>&lt; My Projects /&gt;</span></h2>
+
+    <div class="projects-grid">
+      <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card__media">
+          <img src="weatherimg.jpg" alt="Live Weather App">
+        </div>
+        <div class="project-card__body">
+          <h3>Live Weather App</h3>
+          <p>A responsive modern weather app built with HTML, CSS,
+            and JavaScript that shows real-time weather details based on the user’s city or location.
+            Fetches real-time weather data using an API.</p>
+          <div class="project-card__links">
+            <a href="https://isha-liveweatherapp.netlify.app/" class="link">Live ↗</a>
+            <a href="https://github.com/stackedbyisha/Live-Weather-App" class="icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card__media">
+          <img src="RPS.jpg" alt="Rock Paper Scissors Game">
+        </div>
+        <div class="project-card__body">
+          <h3>Rock Paper Scissors Game</h3>
+          <p>A fun interactive browser game built with HTML, CSS, and JavaScript.
+            Animated results for win, lose, or draw.
+            Custom sounds for an enhanced game experience. </p>
+          <div class="project-card__links">
+            <a href="https://isharpsgame.netlify.app/" class="link">Live ↗</a>
+            <a href="https://github.com/stackedbyisha/Rock-Paper-Scissors-Game" class="icon"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card__media">
+          <img src="Signup Form.jpg" alt="signup form">
+        </div>
+        <div class="project-card__body">
+          <h3>Signup Form</h3>
+          <p>A clean and responsive signup interface.
+            Designed with multi-step progress bar.
+            Includes input validation for user details.
+            Mobile-friendly with smooth transitions.
+            Accessible and easy to integrate.</p>
+          <div class="project-card__links">
+            <a href="https://signupformbyisha.netlify.app/" class="link">Live ↗</a>
+            <a href="https://github.com/stackedbyisha/Signup-Form" class="icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="project-card__media">
+          <img src="TMA.jpg" alt="time management app">
+        </div>
+        <div class="project-card__body">
+          <h3>Time Management App</h3>
+          <p>A responsive productivity tool built with HTML, CSS, and JavaScript. It features task management with
+            priorities, a Pomodoro timer, reminders, dark mode, and progress tracking.</p>
+          <div class="project-card__links">
+            <a href="https://timemanagementappbyisha.netlify.app/" class="link">Live ↗</a>
+            <a href="https://github.com/stackedbyisha/Time-Management-App" class="icon"><i
+                class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <h2 class="section__title"><span>&lt; Contact /&gt;</span></h2>
+    <h3 class="contact__lead">Get in Touch!</h3>
+    <p class="contact__lead">If you'd like to work together or ask a question, send me a message.</p>
+
+    <div class="contact">
+      <form class="form" onsubmit="return false;">
+        <label>
+          <span>Name</span>
+          <input type="text" placeholder="Enter your Name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" placeholder="example@gmail.com" required />
+        </label>
+        <label class="full">
+          <span>Message</span>
+          <textarea rows="5" placeholder="Enter your Message"></textarea>
+        </label>
+        <button class="btn btn--grad" type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__wave"></div>
+    <div class="container footer__inner">
+      <div class="logo-round">I</div>
+      <div class="foot-socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-globe"></i></a>
+      </div>
+      <p class="copy">© 2025 Ishakumari</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
+  </script>
+</body>
+
+</html>
