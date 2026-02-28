@@ -5,6 +5,12 @@ It showcases my **skills, projects, achievements, and contact details** in a cle
 
 ---
 
+  📸 Screenshot :-
+
+  ![image alt](https://github.com/stackedbyisha/IshaPortfolio/blob/947b9b09db959961787906723810afd0802effd3/screenshot-ishaportfolio.png)
+
+---
+
   ✨ Features :-
 - 🎨 Modern and responsive design (desktop + mobile)
 - 📂 Project showcase with **Live Demo** and **GitHub** links
